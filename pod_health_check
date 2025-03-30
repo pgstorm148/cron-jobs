@@ -1,0 +1,1 @@
+*/5 * * * * kubectl get pods --all-namespaces > /path/to/log/k8s_pods.log   
