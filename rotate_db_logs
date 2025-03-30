@@ -1,0 +1,1 @@
+0 0 * * 0 mv /var/log/mysql.log /var/log/mysql_$(date +\%F).log && systemctl restart mysql   
