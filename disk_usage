@@ -1,0 +1,1 @@
+*/30 * * * * df -h | awk '$5 > 80 {print}' | mail -s "Disk Usage Alert" you@example.com  
