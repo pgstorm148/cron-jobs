@@ -1,0 +1,1 @@
+0 3 * * * mysqldump -u root -pYourPassword database_name > /path/to/backup/db_$(date +\%F).sql 
