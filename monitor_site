@@ -1,0 +1,1 @@
+*/5 * * * * curl -s -o /dev/null -w "%{http_code}" https://example.com | grep -q "200" || echo "$(date): Website Down" >> /path/to/log/website.log  
